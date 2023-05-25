@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #de9696;
+}
+
+
+#sidebar {
+  position: absolute;
+  left: 0;
+  width: 200px;
+  height: 100%;
+  background-color: rgba(98, 115, 121, 0.5);
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+#account {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+ul {
+  flex: 1;
+}
+
+ul li a {
+  color:#2b2b2b;
+  font-size: 20px;
+  display: block;
+  text-align: right;
+}
+
+ul li {
+  padding: 20px 10px;
+}
+
+ul li:first-child {
+  margin-top: 30px;
+}
+
+a:hover{
+  height: 100%;
+  color: #2b2bb2;
+  cursor: pointer;
+  transition: all 0.3s ease ;
+}
+
+#placeholder {
+  align-self: center;
+  width: 40px;
+  height: 40px;
+  margin: 10px;
+  /* border: 1px dotted black; Simula lo spazio dove andrà il logo */
+}
+
+#logo {
+  width: 100%;
+  height: auto;
+}
+
+#avatar {
+  width: 40px;
+}
+
+#username {
+  color:rgba(255, 255, 255, 0.3) ;
+}
